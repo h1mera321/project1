@@ -1,0 +1,17 @@
+{
+  "name": "sd-for-creators-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "npm run webapi2openapi && npm run openapi2tsclient",
+    "deploy": "dotnet lambda deploy-serverless",
+    "webapi2openapi": "nswag webapi2openapi version /runtime:Net60 /assembly:bin/Debug/net6.0/win-x64/bridgefluence.dll /DefaultPropertyNameHandling:CamelCase /output:api-client-definition.json",
+    "openapi2tsclient": "nswag openapi2tsclient version /runtime:Net60 /input:api-client-definition.json /output:../app/src/api-client.ts"
+  },
+  "author": "Roman Vasilkov",
+  "license": "ISC",
+  "devDependencies": {
+    "nswag": "^13.14.7"
+  }
+}

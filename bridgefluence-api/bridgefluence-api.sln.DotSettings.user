@@ -1,0 +1,59 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
+	<s:Boolean x:Key="/Default/Environment/Highlighting/HighlightingEnabled/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingMode/@EntryValue">OnlyFullLine</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8a50e71_002D127c_002D431b_002D9e62_002D87626d2f918a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PostponePost" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.PostponePost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.PostponePost(auto&amp;lt;Int32&amp;gt;,auto&amp;lt;PublisherResumeDTO&amp;gt;,auto&amp;lt;Int32&amp;gt;,auto&amp;lt;BrandResumeDTO&amp;gt;,auto&amp;lt;SubmitPostDTO&amp;gt;)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.RejectPost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.RejectPost(auto&amp;lt;Int32&amp;gt;,auto&amp;lt;PublisherResumeDTO&amp;gt;,auto&amp;lt;Int32&amp;gt;,auto&amp;lt;BrandResumeDTO&amp;gt;,auto&amp;lt;SubmitPostDTO&amp;gt;,auto&amp;lt;PostRejectionReason[]&amp;gt;)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.PayForPost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.PayForPost(auto&amp;lt;Int32&amp;gt;,auto&amp;lt;PublisherResumeDTO&amp;gt;,auto&amp;lt;Int32&amp;gt;,auto&amp;lt;BrandResumeDTO&amp;gt;,auto&amp;lt;SubmitPostDTO&amp;gt;,auto&amp;lt;Int32&amp;gt;)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetFeed&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetFeed_ActivePost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetFeed_PostponedAndPaid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetFeed_ActivePosts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.Create&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.Create(auto&amp;lt;Int32&amp;gt;,auto&amp;lt;BrandResumeDTO&amp;gt;)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.PublisherServiceTests.FindBrand&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.PublisherServiceTests.Create_PublisherExists&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.PublisherServiceTests.Create_PublisherNotExists&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.PublisherServiceTests.GetExistingPosts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.PublisherServiceTests.SubmitPost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_Publisher&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_Brand&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_UnknownUser&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e45885ed_002De337_002D41e9_002Db61a_002D4123925e0ec6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UpdatePublisherCategoriesForNotExistingUser" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.PublisherServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.ToolsTests.GetsUserIdFromValidRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.ToolsTests.ReturnsNoUserIdFromLousyForgedRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CampaignServiceTests.CreatesCampaign&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.FindPublishers_PublishersExist_ReturnExistingPublisherData&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetCampaignAssignments_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetCampaigns_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetCampaign_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetFeed_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.Create_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.PostponePost_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.RejectPost_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.PayForPost_x_ReturnX&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_Publisher&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_Brand&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.CommonServiceTests.Init_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::58463B58-1017-48B8-A3FB-439489D3128C::net6.0::bridgefluence_api.Tests.BrandServiceTests.GetFeed&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	</wpf:ResourceDictionary>

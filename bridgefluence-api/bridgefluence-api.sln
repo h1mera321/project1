@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bridgefluence-api", "bridgefluence-api.csproj", "{E998641D-57DB-43B9-86CF-C01DA815E0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bridgefluence-api.Tests", "..\bridgefluence-api.Tests\bridgefluence-api.Tests.csproj", "{58463B58-1017-48B8-A3FB-439489D3128C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E998641D-57DB-43B9-86CF-C01DA815E0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E998641D-57DB-43B9-86CF-C01DA815E0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E998641D-57DB-43B9-86CF-C01DA815E0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E998641D-57DB-43B9-86CF-C01DA815E0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58463B58-1017-48B8-A3FB-439489D3128C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58463B58-1017-48B8-A3FB-439489D3128C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58463B58-1017-48B8-A3FB-439489D3128C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58463B58-1017-48B8-A3FB-439489D3128C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00DA836C-B556-4D2F-82C2-36593BC68CC1}
+	EndGlobalSection
+EndGlobal

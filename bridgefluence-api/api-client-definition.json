@@ -1,0 +1,364 @@
+{
+  "x-generator": "NSwag v13.17.0.0 (NJsonSchema v10.8.0.0 (Newtonsoft.Json v13.0.0.0))",
+  "swagger": "2.0",
+  "info": {
+    "title": "My Title",
+    "version": "1.0.0"
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/Brand/create-brand": {
+      "post": {
+        "tags": [
+          "Brand"
+        ],
+        "operationId": "Brand_Create",
+        "parameters": [
+          {
+            "name": "dto",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/BrandResumeDTO"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/Brand/feed": {
+      "post": {
+        "tags": [
+          "Brand"
+        ],
+        "operationId": "Brand_GetFeed",
+        "parameters": [
+          {
+            "name": "config",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/FeedConfig"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/FeedItem"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Brand/postpone-post": {
+      "put": {
+        "tags": [
+          "Brand"
+        ],
+        "operationId": "Brand_PostponePost",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "postId",
+            "in": "query",
+            "required": true,
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/Common/init": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "operationId": "Common_Init",
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/WelcomeDTO"
+            }
+          }
+        }
+      }
+    },
+    "/Publisher/create-publisher": {
+      "post": {
+        "tags": [
+          "Publisher"
+        ],
+        "operationId": "Publisher_Create",
+        "parameters": [
+          {
+            "name": "dto",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/PublisherResumeDTO"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/Publisher/discovery": {
+      "get": {
+        "tags": [
+          "Publisher"
+        ],
+        "operationId": "Publisher_FindBrand",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "brandName",
+            "in": "query",
+            "required": true,
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/BrandSearchDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Publisher/existing-posts": {
+      "get": {
+        "tags": [
+          "Publisher"
+        ],
+        "operationId": "Publisher_GetExistingPosts",
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Publisher/submit-post": {
+      "post": {
+        "tags": [
+          "Publisher"
+        ],
+        "operationId": "Publisher_SubmitPost",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "brandId",
+            "in": "query",
+            "required": true,
+            "format": "int32",
+            "x-nullable": false
+          },
+          {
+            "name": "submitPost",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/SubmitPostDTO"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "BrandResumeDTO": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "brief": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
+        },
+        "hashtags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "FeedItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "postId",
+        "publisherId",
+        "desiredPrice"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "postId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "publisherId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "desiredPrice": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "FeedConfig": {
+      "type": "object",
+      "required": [
+        "postponed",
+        "paid",
+        "rejected"
+      ],
+      "properties": {
+        "postponed": {
+          "type": "boolean"
+        },
+        "paid": {
+          "type": "boolean"
+        },
+        "rejected": {
+          "type": "boolean"
+        }
+      }
+    },
+    "WelcomeDTO": {
+      "type": "object",
+      "required": [
+        "isBrand",
+        "isPublisher"
+      ],
+      "properties": {
+        "isBrand": {
+          "type": "boolean"
+        },
+        "isPublisher": {
+          "type": "boolean"
+        }
+      }
+    },
+    "PublisherResumeDTO": {
+      "type": "object",
+      "required": [
+        "subscriberCount"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "subscriberCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "geo": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/GeoItem"
+          }
+        }
+      }
+    },
+    "GeoItem": {
+      "type": "object",
+      "required": [
+        "userCount"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "userCount": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "BrandSearchDTO": {
+      "type": "object",
+      "required": [
+        "brandId"
+      ],
+      "properties": {
+        "brandId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "SubmitPostDTO": {
+      "type": "object",
+      "required": [
+        "postId",
+        "requestedPrice"
+      ],
+      "properties": {
+        "postId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "requestedPrice": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    }
+  }
+}

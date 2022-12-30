@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "58463b58-1017-48b8-a3fb-439489d3128c": {
+      "ProjectGuid": "58463b58-1017-48b8-a3fb-439489d3128c",
+      "DisplayName": "bridgefluence-api.Tests",
+      "ColorIndex": 0
+    },
+    "e998641d-57db-43b9-86cf-c01da815e0d7": {
+      "ProjectGuid": "e998641d-57db-43b9-86cf-c01da815e0d7",
+      "DisplayName": "bridgefluence-api",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bridgefluence-db-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "update-test-db": "liquibase --url=jdbc:postgresql://localhost:5432/test --username=postgres --password=Password123 update",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
